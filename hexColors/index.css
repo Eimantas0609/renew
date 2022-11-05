@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-	/* border: 1px solid black; */
 	width: 95%;
 	height: 100vh;
 	display: flex;
@@ -14,25 +13,31 @@ body {
 }
 
 .hex-colors {
-	/* border: 1px solid black; */
 	text-align: center;
 }
 
 .hex-colors h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 	animation: colorchange 5s infinite alternate;
 }
 
 .hex-colors h2 {
-	width: 90%;
-
 	font-size: 2rem;
-	margin-top: 15%;
+	margin-top: 10%;
+}
+
+span {
+	font-size: 3rem;
 }
 
 button {
-	margin-bottom: 10px;
+	margin-top: 10%;
+	background-color: aqua;
+	height: 60px;
+	width: 240px;
+	border: 1px solid black;
+	border-radius: 50%;
 }
 
 @keyframes colorchange {
